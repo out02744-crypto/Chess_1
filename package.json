@@ -1,0 +1,14 @@
+{
+  "name": "chess-trainer",
+  "version": "1.0.0",
+  "description": "Interactive chess trainer with tasks and puzzles",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "keywords": ["chess", "trainer", "puzzle"],
+  "author": "",
+  "license": "MIT"
+}
