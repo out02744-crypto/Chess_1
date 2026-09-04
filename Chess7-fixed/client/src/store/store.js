@@ -1,0 +1,1 @@
+export function createStore(initial){let state=initial;const listeners=new Set();return{getState:()=>state,dispatch(a){state=typeof a==='function'?a(state):{...state,...a};listeners.forEach(fn=>fn(state));},subscribe(fn){listeners.add(fn);return()=>listeners.delete(fn)}}}
